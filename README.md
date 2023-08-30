@@ -60,7 +60,7 @@ Once we've visualized filter matrices, the next step is to visualize feature map
 
 ## Interpreting CNN Layers
 
-Understanding the output of each CNN layer is crucial for interpreting what your model is learning. By visualizing filter matrices and feature maps, we can infer what each layer detects. This information can be used to hardcode specific filters for specific cases, potentially reducing the need for training new models from scratch with randomized filter matrices.
+Understanding the output of each CNN layer is crucial for interpreting what your model is learning. By visualizing filter matrices and feature maps, we can infer what effect is produced when the image array interacts with each filter. I have also represented filters in the 3x3 matrix form and compared the values with the corresponding color/gradient of plotted filter weights. This information can be used to hardcode specific filters for specific cases, potentially reducing the need for training new models from scratch with randomized filter matrices.
 
 ## Conclusion
 
