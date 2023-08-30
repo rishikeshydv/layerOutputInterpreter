@@ -44,7 +44,7 @@ Now you're ready to start exploring CNNs!
 
 In this section, we provide scripts to extract and visualize the filter matrices of each convolutional layer in your CNN model. These filter matrices represent what patterns or features each filter is looking for in an image.
 
-1. Open the Jupyter Notebook provided (`filter_matrix_visualization.ipynb`).
+1. Open the Jupyter Notebook provided (`final_trial.ipynb`).
 2. Load your pre-trained CNN model.
 3. Extract and visualize filter matrices for each convolutional layer.
 4. Gain insights into what features each filter detects.
@@ -53,7 +53,7 @@ In this section, we provide scripts to extract and visualize the filter matrices
 
 Once we've visualized filter matrices, the next step is to visualize feature maps. Feature maps show which areas of an image activate specific filters in each layer. This helps us understand what information the CNN is capturing.
 
-1. Open the Jupyter Notebook (`feature_map_visualization.ipynb`).
+1. Open the Jupyter Notebook (`final_trial.ipynb`).
 2. Load your CNN model and an image for analysis.
 3. Generate feature maps for each layer.
 4. Visualize the feature maps to see which parts of the input image activate specific filters.
